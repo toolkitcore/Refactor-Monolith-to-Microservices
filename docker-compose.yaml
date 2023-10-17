@@ -16,7 +16,7 @@ services:
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: admin123
       POSTGRES_DB: postgres
-      POSTGRES_HOST: postgres.cxsu8o3dnwsn.us-east-1.rds.amazonaws.com
+      POSTGRES_HOST: postgres.ckmjzcigwd9g.us-east-1.rds.amazonaws.com
       AWS_REGION: us-east-1 
       AWS_PROFILE: default 
       AWS_BUCKET: mybucket2410
@@ -30,7 +30,7 @@ services:
       POSTGRES_USERNAME: postgres
       POSTGRES_PASSWORD: admin123
       POSTGRES_DB: postgres
-      POSTGRES_HOST: postgres.cxsu8o3dnwsn.us-east-1.rds.amazonaws.com
+      POSTGRES_HOST: postgres.ckmjzcigwd9g.us-east-1.rds.amazonaws.com
       AWS_REGION: us-east-1 
       AWS_PROFILE: default 
       AWS_BUCKET: mybucket2410
