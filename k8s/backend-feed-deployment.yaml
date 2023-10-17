@@ -32,7 +32,7 @@ spec:
               name: env-config
               key: URL
         - name: AWS_BUCKET
-          valueFrom:s
+          valueFrom:
             configMapKeyRef:
               name: env-config
               key: AWS_BUCKET
