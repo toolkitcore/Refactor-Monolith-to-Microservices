@@ -78,11 +78,11 @@ jobs:
       - name: build and push docker image
         uses: docker/build-push-action@v2
         with:
-          context: ./udagram-frontend/
-          file: ./udagram-frontend/Dockerfile
+          context: ./udagram-reverseproxy/
+          file: ./udagram-reverseproxy/Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/udagram-reverseproxy:latest
 
       - name: verify
         run: echo ${{ steps.docker_build.outputs.digest}}
